@@ -1,0 +1,114 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-ul {
+    list-style-type: none;
+    align-self: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.nav-link {
+  display: inline;
+  padding: 20px;
+  color: #1f63bc;
+  justify-self: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forward-link:after {
+content: '\003E';
+}
+
+.backward-link:before {
+  content: '\21E6';
+  padding: 10px;
+  }
+
+  .backward-link {
+    display: inline;
+    padding: 20px;
+    color: #1f63bc;
+    font-weight:bold;
+    }
+
+.main-container {
+  top: 20%;
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  right: 5%;
+}
+
+.sub-container {
+  top: 10%;
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-container {
+  display: flex;
+}
+
+.primary-button {
+  color: #fff;
+  background-color: #1f63bc;
+  border-radius: 12px;
+  min-height: 40px;
+  max-width: 80px;
+  border-color: #1f63bc;
+  margin-left: 5%;
+}
+
+.flex-child {
+  flex: 1;
+}  
+
+.h3-grey {
+  color: #5f5f60;
+}
+
+
+
+.react-horizontal-scrolling-menu--wrapper {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  order: -1; 
+-ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+
+.react-horizontal-scrolling-menu--item:first-child {
+  margin-left: 50px;
+}
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+  
